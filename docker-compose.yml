@@ -51,4 +51,3 @@ services:
     entrypoint: ["/bin/sh","-c","/bootstrap/bootstrap.sh"]
     # Run once and exit
     restart: "no"
-    auto_remove: true
